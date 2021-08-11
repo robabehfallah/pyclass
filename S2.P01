@@ -1,0 +1,6 @@
+N=int(input('please write a number: '))
+N1=N%2
+if N1==0 :
+    print('even')
+else:
+    print('odd')

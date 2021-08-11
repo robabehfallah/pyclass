@@ -1,0 +1,7 @@
+N1=int(input('please enter 1st number: '))
+N2=int(input('please enter 2nd number: '))
+R=N1%N2
+if R==0 :
+    print('Bakhshpazir')
+else:
+    print('Opps')

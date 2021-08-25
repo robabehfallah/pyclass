@@ -1,0 +1,15 @@
+L = float(input('Please enter the length? '))
+H = float(input('Please enter the width? '))
+U= input("Please enter the unit in 'm' or 'cm': ")
+
+while U!="m" or U!="cm":
+    U=input('Please enter m or cm')
+    if U=="m" or U=="cm":
+        break
+
+if U=="m":
+    area=(L*H)
+    print("The area is : {0} m^2".format(area))
+else:
+    area=(L*H)/10000
+    print("The area is : {0} m^2".format(area))

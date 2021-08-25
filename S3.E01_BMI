@@ -1,0 +1,11 @@
+def BMI():
+    W = float(input('what your weight?'))
+    H = float(input('whats your height in meter?'))
+    BMI = W / (H ** 2)
+    M=25.0
+    if BMI >= M:
+        print('your BMI is {0}. you are overweighted'.format(BMI))
+    else:
+        print('your BMI is {0}. You are normal'.format(BMI))
+
+BMI()

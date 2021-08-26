@@ -1,0 +1,6 @@
+D = ['ali','zahra','fatemeh','shokufe', 'ali']
+F = ['mary', 'eli', 'soly', 'ali']
+D += F
+print(D)
+print(set(D))
+print(len(set(D)))
